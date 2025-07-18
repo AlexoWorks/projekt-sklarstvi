@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sklářství</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/main.css">
+  <!--FONTY-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=My+Soul&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div id="buttonsDiv">
+
+    <div id="linksBar">
+      <a href=""><img src="./images/Facebook_Logo_Primary.png" alt="Facebook"></a>
+      <a href=""><img src="./images/Instagram_Glyph_Gradient.png" alt="Instagram"></a>
+      <a href=""><img src="./images/LI-In-Bug.png" alt="LinkedIn"></a>
+    </div>
+
+    <button id="scrollToTop">
+      <div>
+        <svg width="15px" height="15px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="upbuttonpath" d="M6 8L2 8L2 6L8 5.24536e-07L14 6L14 8L10 8L10 16L6 16L6 8Z" />
+        </svg>
+      </div>
+    </button>
+  </div>
+
+  <header>
+    <div id="navbar">
+      <div id="navbar-content">
+        <div id="navbar-item1">
+          <a href="./index.html" class="font-logo">Sklářství</a>
+          <div class="right_logo">
+            <button onclick="toggleNavbar()" class="ds-yes">|||</button>
+          </div>
+        </div>
+        <div id="navbar-item2" class="hidden">
+          <nav>
+            <ul>
+              <li><a href="./eshop.html">Nabídka</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a class="active" href="./contacts.html">Kontakty</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section id="header_section">
+      <div class="header_background">
+      </div>
+      <div class="section-content top-section">
+        <div class="image_section">
+          <div>
+            <h1 class="text-dark">Kontakty</h1>
+            <p class="text-dark-muted p2">Kontaktovat mě můžete telefonicky, emailem nebo u mé dílny na adrese.</p>
+            <div class="contacts-flex">
+              <div>
+                <p class="text-dark-muted p2 contacts-links_parent">
+                  <svg width="20px" height="20px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="margin-right: 5px;">
+                    <path d="M1 5V1H7V5L4.5 7.5L8.5 11.5L11 9H15V15H11C5.47715 15 1 10.5228 1 5Z" fill="#383838" />
+                  </svg>+420 123 456 789
+                  <br> <svg width="19px" height="19px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="margin-right: 5px;">
+                    <path d="M0 5.3585V14H16V5.35849L8 10.3585L0 5.3585Z" fill="#383838" />
+                    <path d="M16 3V2H0V3L8 8L16 3Z" fill="#383838" />
+                  </svg>example@example.cz<br>
+                  <svg width="21px" height="21px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="margin-right: 5px;">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.37892 10.2236L8 16L12.6211 10.2236C13.5137 9.10788 14 7.72154 14 6.29266V6C14 2.68629 11.3137 0 8 0C4.68629 0 2 2.68629 2 6V6.29266C2 7.72154 2.4863 9.10788 3.37892 10.2236ZM8 8C9.10457 8 10 7.10457 10 6C10 4.89543 9.10457 4 8 4C6.89543 4 6 4.89543 6 6C6 7.10457 6.89543 8 8 8Z" fill="#383838" />
+                  </svg>Zlínská 10, Zlín 523 05
+                </p>
+                <p class="text-dark-muted p2"><strong>Po-Pá</strong>
+                  <br>8:00-15:00
+                  <br><strong>So</strong>
+                  <br>8:00-12:00
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style="object-fit: cover; width: auto; height: 450px;" class="imagednone">
+            <img style="height: 100%; width: auto;" src="./images/something.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contact_form">
+      <div class="section-content">
+        <div class="contacts_section">
+          <div>
+            <h1 class="text-dark text-center">Zpráva</h1>
+          </div>
+          <div>
+            <div class="contacts">
+
+              <form class="contact-form" method="post" action="" id="contact-form">
+                <div class="contact-text">
+                  <div style="display: flex; flex-direction: column">
+                    <input placeholder="Jméno*" type="text" name="Name" class="" value="" required>
+                    <small class="errormessage_text"></small>
+                  </div>
+                  <div style="display: flex; flex-direction: column">
+                    <input placeholder="Email*" label="" type="email" name="Email" class="" value="" required>
+                    <small class="errormessage_text"></small>
+                  </div>
+                  <div style="display: flex; flex-direction: column">
+                    <input placeholder="Telefonní číslo" type="tel" name="Phone" id="" value="">
+                    <small class="errormessage_text"></small>
+                  </div>
+                  <div style="display: flex; flex-direction: column">
+                    <select name="Subject" class="" value="" required>
+                      <option value="" disabled hidden>Důvod*</option>
+                      <option value="Zakázka">Zakázka</option>
+                      <option value="Dotaz">Dotaz</option>
+                      <option value="Ostatní">Ostatní</option>
+                    </select>
+                    <small class="errormessage_text"></small>
+                  </div>
+                </div>
+                <div style="display: flex; flex-direction: column">
+                  <textarea placeholder="Zpráva*" type="text" name="Message" class="" id="message-input" required></textarea>
+                  <small class="errormessage_text"></small>
+                </div>
+                <div style="display: flex; flex-direction: column">
+                  <label for="privacy-consent"><input type="checkbox" name="privacy-consent" class="" required>Souhlasím s použití
+                    osobních údajů</label>
+                  <small class="errormessage_text"></small>
+                </div>
+                <button type="submit" id="form-btn">Odeslat</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="freelance_section-parent">
+      <div class="section-content">
+        <div class="freelance_section">
+          <div>
+            <h1 class="text-dark text-center">Živnost</h1>
+          </div>
+          <div class="freelance-content">
+            <div class="freelance">
+
+              <p class="text-dark-muted p2"><strong>Sklářství</strong><br>
+                Zlínská 10, 522 10 Zlín <br>
+                Česká republika</p>
+
+              <p class="text-dark-muted p2" style="text-decoration: none !important; ">IČO:</p>
+
+            </div>
+            <div class="map">
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83372.42823712422!2d17.594106163029533!3d49.23112529699456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47130cad4c888e0d%3A0x418d4c16a8ac214f!2zWmzDrW4!5e0!3m2!1sen!2scz!4v1739155609145!5m2!1sen!2scz"
+                allowfullscreen="" loading="lazy" id="map"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content_parent_parent">
+      <div class="footer-content_parent">
+        <div class="footer-content">
+          <div class="footer_items-left">
+            <div class="left-divs">
+              <h2 class="text-white socialsH2">Sociální sítě:</h2>
+              <div class="socials-row">
+                <a href=""><img src="./images/Facebook_Logo_Primary.png" alt="Facebook"></a>
+                <a href=""><img src="./images/Instagram_Glyph_Gradient.png" alt="Instagram"></a>
+                <a href=""><img src="./images/LI-In-Bug.png" alt="LinkedIn"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer_items-right">
+            <div class="footer_item-files">
+              <h2 class="text-white">Soubory</h2>
+              <a href="">Ochrana osobních údajů</a>
+            </div>
+            <div class="footer_item-contacts">
+              <h2 class="text-white">Kontakty</h2>
+              <p><strong>Po-Pá: 8:00-15:00
+                  <br>So: 8:00-12:00
+                </strong></p>
+              <a href="tel:+420123456789">+420 123 456 789</a>
+              <a href="mailto:example@example.cz">example@example.cz</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright_info">© Aleš Opěla</div>
+  </footer>
+
+
+  <script src="./js/core.js" async defer></script>
+</body>
+
+</html>

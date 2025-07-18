@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SklaKouzla</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/main.css">
+  <!--FONTY-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=My+Soul&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div id="buttonsDiv">
+
+    <div id="linksBar">
+      <a href=""><img src="./images/Facebook_Logo_Primary.png" alt="Facebook"></a>
+      <a href=""><img src="./images/Instagram_Glyph_Gradient.png" alt="Instagram"></a>
+      <a href=""><img src="./images/LI-In-Bug.png" alt="LinkedIn"></a>
+    </div>
+
+    <button id="scrollToTop">
+      <div>
+        <svg width="15px" height="15px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="upbuttonpath" d="M6 8L2 8L2 6L8 5.24536e-07L14 6L14 8L10 8L10 16L6 16L6 8Z" />
+        </svg>
+      </div>
+    </button>
+  </div>
+
+  <header>
+    <div id="navbar">
+      <div id="navbar-content">
+        <div id="navbar-item1">
+          <a href="./index.html" class="font-logo">Sklářství</a>
+          <div class="right_logo">
+            <button onclick="toggleNavbar()" class="ds-yes">|||</button>
+          </div>
+        </div>
+        <div id="navbar-item2" class="hidden">
+          <nav>
+            <ul>
+              <li><a href="./eshop.html">Nabídka</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contacts.html">Kontakty</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="eshop_section-parent" style="background-color: white; min-height: 100vh;justify-content:start">
+      <div class="section-content">
+        <div class="eshop_section" style="align-items:center">
+
+          <div class="blog_card" id="">
+            <div class="item_text">
+              <div>
+                <p>15. 8. 2025</p>
+                <h1 class="text-dark">Název příspěvku</h1>
+                <p style="white-space: pre-wrap;" class="p2 post_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex molestias ut inventore iure, reprehenderit quibusdam fugit hic laborum illum reiciendis officia ad beatae ullam excepturi illo doloribus mollitia dolores? Assumenda enim molestias laboriosam aperiam aliquid. Molestias eos animi cumque!</p>
+              </div>
+            </div>
+            <div class="blog_card-carousel"><img class="blog_card-image" src="./images/something.jpeg" alt="Something"></div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <script src="./js/core.js" async defer></script>
+  <script src="./js/blog.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sklářství</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/main.css">
+  <!--FONTY-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=My+Soul&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div id="buttonsDiv">
+
+    <div id="linksBar">
+      <a href=""><img src="./images/Facebook_Logo_Primary.png" alt="Facebook"></a>
+      <a href=""><img src="./images/Instagram_Glyph_Gradient.png" alt="Instagram"></a>
+      <a href=""><img src="./images/LI-In-Bug.png" alt="LinkedIn"></a>
+    </div>
+
+    <button id="scrollToTop">
+      <div>
+        <svg width="15px" height="15px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="upbuttonpath" d="M6 8L2 8L2 6L8 5.24536e-07L14 6L14 8L10 8L10 16L6 16L6 8Z" />
+        </svg>
+      </div>
+    </button>
+  </div>
+
+  <header>
+    <div id="navbar">
+      <div id="navbar-content">
+        <div id="navbar-item1">
+          <a href="./index.html" class="font-logo">Sklářství</a>
+          <div class="right_logo">
+            <button onclick="toggleNavbar()" class="ds-yes">|||</button>
+          </div>
+        </div>
+        <div id="navbar-item2" class="hidden">
+          <nav>
+            <ul>
+              <li><a href="./eshop.html">Nabídka</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contacts.html">Kontakty</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+
+
+  <main>
+    <section id="header_section">
+      <div class="header_background" id="background_index">
+      </div>
+      <div class="section-content top-section">
+        <h1 class="text-white">Ručně vyráběné skleněné produkty</h1>
+        <p class="text-white-muted p">České sklářství s dlouholetou praxí v ruční výrobě jedinečných skleněných děl,
+          která
+          spojují precizní řemeslo, tradiční i moderní design a lásku k lokální tvorbě.</p>
+        <div class="mt-3em">
+          <a href="./eshop.html" class="selection-btn">Nabídka</a>
+          <a href="./contacts.html#contact_form" class="gig-btn">Zakázka</a>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="section-content">
+        <div class="image_section">
+          <div>
+            <h1 class="text-dark">Vyrobeno v České republice</h1>
+            <p class="text-dark-muted p2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse nisl.
+              Mauris
+              dolor felis, sagittis at, luctus sed, aliquam non, tellus. Integer imperdiet lectus quis justo. Nullam at
+              arcu
+              a est sollicitudin euismod. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt
+              mollit anim id est laborum. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Integer
+              tempor.</p>
+          </div>
+          <div class="imagednone">
+            <img width="400px" src="./images/approved_stamp.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="section-content" style="padding-bottom: 10em; margin-top:5em">
+        <div>
+          <div>
+            <h1 class="text-dark text-center">Zakázky</h1>
+            <p class="text-dark-muted p3 text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse nisl.
+              Mauris
+              dolor felis, sagittis at, luctus sed, aliquam non, tellus. Integer imperdiet lectus quis justo. Nullam at
+              arcu
+              a est sollicitudin euismod. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt
+              mollit anim id est laborum. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Integer
+              tempor.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="works-section">
+      <div class="section-content">
+        <div class="carousel_section">
+          <div>
+            <h1 class="text-dark text-center">Ukázka děl</h1>
+          </div>
+          <div class="works-carousel">
+            <button onclick="scrollToPreviousItems()" class="back-button display-none"
+              id="before-button">❮</button>
+            <div class="carousel">
+
+              <div class="carousel_card">
+                <img src="./images/something.jpeg" alt="">
+                <h2></h2>
+                <p></p>
+              </div>
+              <div class="carousel_card">
+                <img src="./images/something.jpeg" alt="">
+                <h2></h2>
+                <p></p>
+              </div>
+              <div class="carousel_card">
+                <img src="./images/something.jpeg" alt="">
+                <h2></h2>
+                <p></p>
+              </div>
+              <div class="carousel_card">
+                <img src="./images/something.jpeg" alt="">
+                <h2></h2>
+                <p></p>
+              </div>
+              <div class="carousel_card">
+                <img src="./images/something.jpeg" alt="">
+                <h2></h2>
+                <p></p>
+              </div>
+              <div class="carousel_card">
+                <img src="./images/something.jpeg" alt="">
+                <h2></h2>
+                <p></p>
+              </div>
+              <div class="carousel_card">
+                <img src="./images/something.jpeg" alt="">
+                <h2></h2>
+                <p></p>
+              </div>
+              <div class="carousel_card">
+                <img src="./images/something.jpeg" alt="">
+                <h2></h2>
+                <p></p>
+              </div>
+
+            </div>
+            <button onclick="scrollToNextItems()" class="foward-button" id="next-button">❯</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="section-content">
+        <div class="recentposts_section">
+          <div>
+            <h1 class="text-dark text-center">Nedávné příspěvky na blogu</h1>
+          </div>
+          <div>
+            <div class="recentposts">
+
+              <a class="recent_post-link">
+                <div class="recentposts_card">
+                  <p>12. 9. 2025</p>
+                  <h1 class="text-dark">Nové nářadí</h1>
+                  <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, accusantium.</p>
+                </div>
+              </a>
+              <a class="recent_post-link">
+                <div class="recentposts_card">
+                  <p>12. 9. 2025</p>
+                  <h1 class="text-dark">Výročí 10 let</h1>
+                  <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, accusantium.</p>
+                </div>
+              </a>
+              <a class="recent_post-link">
+                <div class="recentposts_card">
+                  <p>12. 9. 2025</p>
+                  <h1 class="text-dark">Velká letní soutěž</h1>
+                  <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, accusantium.</p>
+                </div>
+              </a>
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="button-center">
+          <a href="./blog.html" class="sign-in-button mt-3em">Více</a>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content_parent_parent">
+      <div class="footer-content_parent">
+        <div class="footer-content">
+          <div class="footer_items-left">
+            <div class="left-divs">
+              <h2 class="text-white socialsH2">Sociální sítě:</h2>
+              <div class="socials-row">
+                <a href=""><img src="./images/Facebook_Logo_Primary.png" alt="Facebook"></a>
+                <a href=""><img src="./images/Instagram_Glyph_Gradient.png" alt="Instagram"></a>
+                <a href=""><img src="./images/LI-In-Bug.png" alt="LinkedIn"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer_items-right">
+            <div class="footer_item-files">
+              <h2 class="text-white">Soubory</h2>
+              <a href="">Ochrana osobních údajů</a>
+            </div>
+            <div class="footer_item-contacts">
+              <h2 class="text-white">Kontakty</h2>
+              <p><strong>Po-Pá: 8:00-15:00
+                  <br>So: 8:00-12:00
+                </strong></p>
+              <a href="tel:+420123456789">+420 123 456 789</a>
+              <a href="mailto:example@example.cz">example@example.cz</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright_info">© Aleš Opěla</div>
+  </footer>
+
+  <script src="./js/core.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

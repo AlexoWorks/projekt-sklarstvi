@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sklářství</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/main.css">
+  <!--FONTY-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&family=My+Soul&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div id="buttonsDiv">
+
+    <div id="linksBar">
+      <a href=""><img src="./images/Facebook_Logo_Primary.png" alt="Facebook"></a>
+      <a href=""><img src="./images/Instagram_Glyph_Gradient.png" alt="Instagram"></a>
+      <a href=""><img src="./images/LI-In-Bug.png" alt="LinkedIn"></a>
+    </div>
+
+    <button id="scrollToTop">
+      <div>
+        <svg width="15px" height="15px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="upbuttonpath" d="M6 8L2 8L2 6L8 5.24536e-07L14 6L14 8L10 8L10 16L6 16L6 8Z" />
+        </svg>
+      </div>
+    </button>
+  </div>
+
+  <header>
+    <div id="navbar">
+      <div id="navbar-content">
+        <div id="navbar-item1">
+          <a href="./index.html" class="font-logo">Sklářství</a>
+          <div class="right_logo">
+            <button onclick="toggleNavbar()" class="ds-yes">|||</button>
+          </div>
+        </div>
+        <div id="navbar-item2" class="hidden">
+          <nav>
+            <ul>
+              <li><a class="active" href="./eshop.html">Nabídka</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./contacts.html">Kontakty</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="eshop_section-parent">
+      <div class="section-content top-section">
+        <div class="eshop_section">
+          <div>
+            <h1 class="text-dark text-center">Položky</h1>
+            <p class="text-center" style="max-width: 80% !important">Zde je k vidění má aktuální nabídka výrobků k zakoupení v mé dílně nebo v okolí
+              Zlína.</p>
+          </div>
+          <div>
+            <div class="eshop" id="ecommerceOutput">
+
+              <div class="eshop_card">
+                <div class="eshop_card-carousel-parent">
+                  <button class="carousel-btn prev-btn">❮</button>
+                  <div class="eshop_card-carousel">
+                    <div class="eshop_image-parent">
+                      <img class="eshop_card-image" src="./images/something.jpeg" alt="something" loading="lazy">
+                    </div>
+                    <div class="eshop_image-parent">
+                      <img class="eshop_card-image" src="./images/something.jpeg" alt="something" loading="lazy">
+                    </div>
+                    <div class="eshop_image-parent">
+                      <img class="eshop_card-image" src="./images/something.jpeg" alt="something" loading="lazy">
+                    </div>
+                  </div>
+                  <button class="carousel-btn next-btn">❯</button>
+                </div>
+
+                <div class="item_text">
+                  <div>
+                    <h1 class="text-dark">
+                      <a href="item.html" style="text-decoration: none; color: inherit;">
+                        Název položky
+                        <svg width="24px" height="24px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="margin-right: 5px;">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C5.26874e-08 12.4183 3.58172 16 8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 -5.26874e-08 8 0C3.58172 5.26874e-08 -5.26874e-08 3.58172 0 8ZM10.7929 12.2071L7.29288 8.70711L5.24999 10.75L4.49999 10V4.5H9.99998L10.75 5.25L8.70709 7.29289L12.2071 10.7929L10.7929 12.2071Z" fill="#cccccc" />
+                        </svg></a>
+                    </h1>
+                    <p class="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex molestias ut inventore iure, reprehenderit quibusdam fugit hic laborum illum reiciendis officia ad beatae ullam excepturi illo doloribus mollitia dolores? Assumenda enim molestias laboriosam aperiam aliquid. Molestias eos animi cumque!</p>
+                    <h2 class="item_price">1200Kč</h2>
+                  </div>
+                  <div class="item_buttons">
+                    <button class="button-buy">Koupit</button>
+                    <button class="button-share">Sdílet</button>
+                  </div>
+                </div>
+              </div>
+              <div class="eshop_card">
+                <div class="eshop_card-carousel-parent">
+                  <button class="carousel-btn prev-btn">❮</button>
+                  <div class="eshop_card-carousel">
+                    <div class="eshop_image-parent">
+                      <img class="eshop_card-image" src="./images/something.jpeg" alt="something" loading="lazy">
+                    </div>
+                    <div class="eshop_image-parent">
+                      <img class="eshop_card-image" src="./images/something.jpeg" alt="something" loading="lazy">
+                    </div>
+                    <div class="eshop_image-parent">
+                      <img class="eshop_card-image" src="./images/something.jpeg" alt="something" loading="lazy">
+                    </div>
+                  </div>
+                  <button class="carousel-btn next-btn">❯</button>
+                </div>
+
+                <div class="item_text">
+                  <div>
+                    <h1 class="text-dark">
+                      <a href="item.html" style="text-decoration: none; color: inherit;">
+                        Název položky
+                        <svg width="24px" height="24px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="margin-right: 5px;">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C5.26874e-08 12.4183 3.58172 16 8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 -5.26874e-08 8 0C3.58172 5.26874e-08 -5.26874e-08 3.58172 0 8ZM10.7929 12.2071L7.29288 8.70711L5.24999 10.75L4.49999 10V4.5H9.99998L10.75 5.25L8.70709 7.29289L12.2071 10.7929L10.7929 12.2071Z" fill="#cccccc" />
+                        </svg></a>
+                    </h1>
+                    <p class="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex molestias ut inventore iure, reprehenderit quibusdam fugit hic laborum illum reiciendis officia ad beatae ullam excepturi illo doloribus mollitia dolores? Assumenda enim molestias laboriosam aperiam aliquid. Molestias eos animi cumque!</p>
+                    <h2 class="item_price">1200Kč</h2>
+                  </div>
+                                    <div class="item_buttons">
+                    <button class="button-buy">Koupit</button>
+                    <button class="button-share">Sdílet</button>
+                  </div>
+                </div>
+              </div>
+              <div class="eshop_card">
+                <div class="eshop_card-carousel-parent">
+                  <button class="carousel-btn prev-btn">❮</button>
+                  <div class="eshop_card-carousel">
+                    <div class="eshop_image-parent">
+                      <img class="eshop_card-image" src="./images/something.jpeg" alt="something" loading="lazy">
+                    </div>
+                    <div class="eshop_image-parent">
+                      <img class="eshop_card-image" src="./images/something.jpeg" alt="something" loading="lazy">
+                    </div>
+                    <div class="eshop_image-parent">
+                      <img class="eshop_card-image" src="./images/something.jpeg" alt="something" loading="lazy">
+                    </div>
+                  </div>
+                  <button class="carousel-btn next-btn">❯</button>
+                </div>
+
+                <div class="item_text">
+                  <div>
+                    <h1 class="text-dark">
+                      <a href="item.html" style="text-decoration: none; color: inherit;">
+                        Název položky
+                        <svg width="24px" height="24px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="margin-right: 5px;">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 8C5.26874e-08 12.4183 3.58172 16 8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 -5.26874e-08 8 0C3.58172 5.26874e-08 -5.26874e-08 3.58172 0 8ZM10.7929 12.2071L7.29288 8.70711L5.24999 10.75L4.49999 10V4.5H9.99998L10.75 5.25L8.70709 7.29289L12.2071 10.7929L10.7929 12.2071Z" fill="#cccccc" />
+                        </svg></a>
+                    </h1>
+                    <p class="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ex molestias ut inventore iure, reprehenderit quibusdam fugit hic laborum illum reiciendis officia ad beatae ullam excepturi illo doloribus mollitia dolores? Assumenda enim molestias laboriosam aperiam aliquid. Molestias eos animi cumque!</p>
+                    <h2 class="item_price">1200Kč</h2>
+                  </div>
+                                    <div class="item_buttons">
+                    <button class="button-buy">Koupit</button>
+                    <button class="button-share">Sdílet</button>
+                  </div>
+                </div>
+              </div>
+
+              <form id="morepostsbutton" method="post" style="margin:0 auto">
+                <!-- Pass the current offset (e.g., 10 initially) as a hidden field -->
+                <input type="hidden" name="load10more" value="">
+                <button type="submit" name="loadMore">Další</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-content_parent_parent">
+      <div class="footer-content_parent">
+        <div class="footer-content">
+          <div class="footer_items-left">
+            <div class="left-divs">
+              <h2 class="text-white socialsH2">Sociální sítě:</h2>
+              <div class="socials-row">
+                <a href=""><img src="./images/Facebook_Logo_Primary.png" alt="Facebook"></a>
+                <a href=""><img src="./images/Instagram_Glyph_Gradient.png" alt="Instagram"></a>
+                <a href=""><img src="./images/LI-In-Bug.png" alt="LinkedIn"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer_items-right">
+            <div class="footer_item-files">
+              <h2 class="text-white">Soubory</h2>
+              <a href="">Ochrana osobních údajů</a>
+            </div>
+            <div class="footer_item-contacts">
+              <h2 class="text-white">Kontakty</h2>
+              <p><strong>Po-Pá: 8:00-15:00
+                  <br>So: 8:00-12:00
+                </strong></p>
+              <a href="tel:+420123456789">+420 123 456 789</a>
+              <a href="mailto:example@example.cz">example@example.cz</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright_info">© Aleš Opěla</div>
+  </footer>
+
+
+  <script src="./js/core.js" async defer></script>
+  <script src="./js/selection.js"></script>
+</body>
+
+</html>
